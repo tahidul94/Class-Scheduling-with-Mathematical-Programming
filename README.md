@@ -52,4 +52,49 @@ To create an automated scheduling tool that assigns:
 | Matplotlib   | Gantt chart visualizations      |
 | Excel        | Input/output file management    |
 
-## 🗂️ Project Structure
+
+---
+
+## 🚀 How to Run Locally
+
+### 🔧 Prerequisites
+- Python 3.8+
+- pip (Python package installer)
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/tahidul94/Class-Scheduling-with-Mathematical-Programming.git
+cd Class-Scheduling-with-Mathematical-Programming
+```
+
+### 2. Install Required Packages
+```bash
+pip install -r requirements.txt
+```
+### 3. Run the Streamlit App
+```bash
+streamlit run scheduler_app.py
+```
+The app will launch at http://localhost:8501
+
+### 🌐 Live Demo
+🖥️ Try the app here → https://class-scheduling.streamlit.app
+
+📊 App Features
+- Filter schedule by day or professor
+
+- View clean Gantt chart timeline of all courses
+
+- Export filtered data as CSV
+
+- App built for demonstration — based on static model output
+
+### 👥 Contributors
+This project was completed collaboratively by students of UNO's Data Science program as part of a Spring 2025 group assignment for the course MATH 4320/8326 – Computational Operations Research.
+
+Special thanks to our course instructor for providing guidance throughout the project.
+
+### 📜 License
+This project is for academic, educational, and demonstration purposes only.
+All work © 2025 by the authors.
+---
