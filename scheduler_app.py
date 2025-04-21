@@ -50,7 +50,7 @@ schedule_df = pd.DataFrame(data, columns=["Course", "Section", "Professor", "Roo
 
 # Streamlit App Configuration
 st.set_page_config(layout="wide")
-st.title("📘 UNO Class Schedule Viewer")
+st.title("📘 Mavericks Class Schedule Viewer")
 
 # ⚠️ Disclaimer
 st.info("⚠️ This app displays a static schedule based on a previously optimized model. It does not regenerate schedules with new data.")
